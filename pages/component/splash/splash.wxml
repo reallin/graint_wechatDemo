@@ -1,0 +1,9 @@
+
+<swiper class="swiper" indicator-dots="{{true}}" autoplay="{{false}}" interval="2000" duration="500">
+   <block wx:for="{{background}}" wx:for-index="index" wx:key="*this">
+  <swiper-item class="swiper-item">
+ <image class="swiper-item-image" src="../../resource/{{item}}.jpg" mode = "aspectFill"/>  
+  <button class="btn" bindtap="enterApp" wx:if="{{index == background.length - 1}}">立即体验</button>
+  </swiper-item>
+  </block> 
+</swiper>

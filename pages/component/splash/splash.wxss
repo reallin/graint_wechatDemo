@@ -1,0 +1,28 @@
+.swiper{
+  flex: 1;
+  height: 1150rpx;
+}
+
+.swiper-item{
+  flex: 1;
+}
+
+ .swiper-item-image{
+   position: absolute;
+  height: 100%;
+  width:100%;
+}  
+
+.btn{
+  position: absolute;
+  bottom: 150rpx;
+  left: 50%;
+  width: 300rpx;
+  margin-left: -150rpx;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(53, 73, 94, 0.7);
+  border: 4rpx solid #fff;
+  font-size: 40rpx;
+  color: #fff;
+}
